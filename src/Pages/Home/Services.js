@@ -2,7 +2,9 @@ import React from "react";
 import fluoride from "../../assets/images/fluoride.png";
 import cavity from "../../assets/images/cavity.png";
 import whitening from "../../assets/images/whitening.png";
+import treatment from "../../assets/images/treatment.png";
 import ServiceCard from "./ServiceCard";
+import PrimaryButton from "../Shared/PrimaryButton";
 
 const Services = () => {
   const services = [
@@ -37,6 +39,22 @@ const Services = () => {
         {services.map((service) => (
           <ServiceCard key={service.id} serviceInfo={service} />
         ))}
+      </div>
+
+      <div class="hero  mt-12">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src={treatment} class="max-w-sm rounded-lg shadow-2xl" alt="" />
+          <div>
+            <h1 class="text-5xl font-bold">
+              Customized treatment based on your requirement
+            </h1>
+            <p class="py-6">
+              We care care about hour client's wellbeing, thus, list your wants
+              and let us know so that we can help you the most
+            </p>
+            <PrimaryButton>GET STARTED</PrimaryButton>
+          </div>
+        </div>
       </div>
     </div>
   );

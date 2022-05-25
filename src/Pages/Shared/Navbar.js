@@ -25,7 +25,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         <a className="btn btn-ghost normal-case text-xl">Doctors Portal</a>
       </div>
