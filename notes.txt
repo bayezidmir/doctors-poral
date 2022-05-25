@@ -1,1 +1,6 @@
-Sketch
+1. Installed: (npx create-react-app doctors-portal)
+2. Installed react router: (npm install react-router-dom@6)
+3. Installed tailwind : (npm install -D tailwindcss)-> initialized it: (npx tailwindcss init) -> replaced : (content: ["./src/**/*.{html,js}"],) inside tailwind.config.js ->imported (@tailwind base;
+@tailwind components;
+@tailwind utilities;) to index.css
+4. Installed daisyUI: (npm i daisyui) -> 
