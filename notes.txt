@@ -4,3 +4,7 @@
 @tailwind components;
 @tailwind utilities;) to index.css
 4. Installed daisyUI: (npm i daisyui) -> 
+
+Tips 1: Setting background image using the following format:
+import the image first then in the parent div -> style={{ backgroundImage: `url(${Background})` }}
+ 
