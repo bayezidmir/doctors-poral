@@ -41,14 +41,18 @@ const Services = () => {
         ))}
       </div>
 
-      <div class="hero  mt-12">
-        <div class="hero-content flex-col lg:flex-row">
-          <img src={treatment} class="max-w-sm rounded-lg shadow-2xl" alt="" />
+      <div className="hero  mt-12">
+        <div className="hero-content flex-col lg:flex-row">
+          <img
+            src={treatment}
+            className="max-w-sm rounded-lg shadow-2xl"
+            alt=""
+          />
           <div>
-            <h1 class="text-5xl font-bold">
+            <h1 className="text-5xl font-bold">
               Customized treatment based on your requirement
             </h1>
-            <p class="py-6">
+            <p className="py-6">
               We care care about hour client's wellbeing, thus, list your wants
               and let us know so that we can help you the most
             </p>

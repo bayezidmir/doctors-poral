@@ -7,4 +7,7 @@
 
 Tips 1: Setting background image using the following format:
 import the image first then in the parent div -> style={{ backgroundImage: `url(${Background})` }}
- 
+Tips 2: Implementing dynamic className using tailwind: (className={`shadow-xl ${customBackground} p-3`})
+
+5. Install react day picker from https://react-day-picker.js.org/start: (npm install react-day-picker date-fns)
+6. Default state for a day picker should be declared like this : const [date, setDate] = useState(new Date());

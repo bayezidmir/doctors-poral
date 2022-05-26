@@ -3,7 +3,7 @@ import doctor from "../../assets/images/doctor.png";
 import PrimaryButton from "../Shared/PrimaryButton";
 import bg from "../../assets/images/bg.png";
 
-const Appointment = () => {
+const MyAppointment = () => {
   return (
     <section
       className="flex justify-center items-center bg-accent p-10 mt-28"
@@ -25,4 +25,4 @@ const Appointment = () => {
   );
 };
 
-export default Appointment;
+export default MyAppointment;
